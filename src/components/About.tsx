@@ -10,9 +10,9 @@ const About = () => {
         <section>
           <h1 className="text-5xl font-bold font-forte">About Us</h1>
           <p className="text-xl mt-8 tracking-wider leading-7">
-            "DehraDuna Dumplings" originated when our unique flavors travelled
+            {`"DehraDuna Dumplings" originated when our unique flavors travelled
             all the way from the green valley in the foothills of Himalayas,
-            Dehradun (India) to the historic Duna river in Budapest.
+            Dehradun (India) to the historic Duna river in Budapest.`}
           </p>
           <h2 className="text-3xl mt-8 font-montserrat">
             WHERE DO DUMPLINGS COME FROM?
@@ -29,14 +29,14 @@ const About = () => {
           </p>
           <h2 className="text-4xl mt-8">WHAT WE OFFER</h2>
           <p className="text-xl mt-5 tracking-wider leading-7">
-            Our touch comes from combining the best of all for everyone: Veggie
+            {`Our touch comes from combining the best of all for everyone: Veggie
             momos for our vegan customers, Paneer for the vegetarians, Chicken
             and Pork for the protein lovers, and a wide selection of dip sauces,
             along with our beloved Indian Fire for the adventurous, who need a
             bit of spice in life. To make it special, we extensively offer
             different styles of momos: steam, pan fried, and, deep fried. We
             offer a unique blend of flavors in our gravy momos for those who eat
-            life with a big spoon.
+            life with a big spoon.`}
           </p>
         </section>
         <section>

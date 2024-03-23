@@ -17,8 +17,8 @@ const Hero = () => {
         <h1>Taste the filling. Share the feeling</h1>
       </div>
       <Carousel autoplay dots={false} infinite className="z-0">
-        {heroImages.map((imageSrc: string) => (
-          <div className="h-[90vh]">
+        {heroImages.map((imageSrc: string, idx: number) => (
+          <div className="h-[90vh]" key={idx}>
             <img
               src={imageSrc}
               alt="carousel image"
