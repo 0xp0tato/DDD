@@ -17,7 +17,7 @@ const Header = () => {
         <h1 className="text-lg md:text-2xl absolute left-1/2 transform -translate-x-1/2 font-forte">
           Dehraduna Dumplings
         </h1>
-        <nav className="hidden md:block">
+        <nav className="hidden lg:block">
           <ul className="flex gap-5">
             <li>Home</li>
             <li>About</li>
@@ -26,7 +26,7 @@ const Header = () => {
           </ul>
         </nav>
         <MenuOutlined
-          className="text-2xl block md:hidden"
+          className="text-2xl block lg:hidden"
           onClick={() => setMenuOpen(true)}
         />
 

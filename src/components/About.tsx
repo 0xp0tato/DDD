@@ -6,10 +6,10 @@ const videoUrl =
 const About = () => {
   return (
     <main className="bg-primary-color py-20 px-20">
-      <div className="grid grid-cols-2 gap-10 text-white h-full lg:max-w-[1140px] mx-auto">
+      <div className="flex flex-col-reverse gap-10 text-white h-full lg:grid lg:grid-cols-2 lg:max-w-[1140px] mx-auto">
         <section>
           <h1 className="text-5xl font-bold font-forte">About Us</h1>
-          <p className="text-xl mt-8 tracking-wider leading-7">
+          <p className="lg:text-xl mt-8 tracking-wider md:leading-7">
             {`"DehraDuna Dumplings" originated when our unique flavors travelled
             all the way from the green valley in the foothills of Himalayas,
             Dehradun (India) to the historic Duna river in Budapest.`}
@@ -17,7 +17,7 @@ const About = () => {
           <h2 className="text-3xl mt-8 font-montserrat">
             WHERE DO DUMPLINGS COME FROM?
           </h2>
-          <p className="text-xl mt-5 tracking-wider leading-7">
+          <p className="lg:text-xl mt-5 tracking-wider md:leading-7">
             Fun fact, dumpling is actually an umbrella term, hiding a broad
             class of dishes from all around the world under its name, like the
             Ghanaian banku, the Spanish empanadas, the Polish pierogi, the
@@ -28,7 +28,7 @@ const About = () => {
             and Nepali cuisine, also popular in the neighbouring India.
           </p>
           <h2 className="text-4xl mt-8">WHAT WE OFFER</h2>
-          <p className="text-xl mt-5 tracking-wider leading-7">
+          <p className="lg:text-xl mt-5 tracking-wider md:leading-7">
             {`Our touch comes from combining the best of all for everyone: Veggie
             momos for our vegan customers, Paneer for the vegetarians, Chicken
             and Pork for the protein lovers, and a wide selection of dip sauces,
@@ -45,7 +45,7 @@ const About = () => {
             autoPlay
             muted
             loop
-            className="object-cover rounded-2xl"
+            className="object-cover rounded-2xl h-full"
           />
         </section>
       </div>
