@@ -27,7 +27,7 @@ const TabComponent: React.FC<TabComponentProps> = ({ tabs }) => {
             key={index}
             className={`cursor-pointer py-2 border-b-2 hover:text-primary-color md:text-xl lg:text-2xl ${
               activeTab === index
-                ? "border-primary-color"
+                ? "border-primary-color text-primary-color"
                 : "border-transparent"
             }`}
             onClick={() => handleTabClick(index)}
