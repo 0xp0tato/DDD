@@ -73,32 +73,28 @@ export default function Contactus() {
   );
 
   return (
-    <main className="lg:max-w-[1140px] m-auto py-8 px-8">
+    <main id="contact" className="lg:max-w-[1140px] m-auto py-8 px-8">
       <h1 className="text-center text-4xl mb-8 font-semibold">Order Now</h1>
       <div className="grid grid-cols-1 gap-10 lg:grid-cols-2">
         {mapLocation}
         <section className="flex flex-col gap-8 lg:order-first justify-center">
-          <div className="flex items-center md:justify-center lg:justify-normal gap-5">
+          <div className="flex flex-col md:flex-row items-center md:justify-center lg:justify-normal gap-2 md:gap-5">
             {phoneSVG}
             <div className="md:flex">
-              <p className="text-xl flex-grow font-semibold">
+              <p className="text-lg md:text-xl flex-grow font-semibold">
                 +36206626976, +36308998460
               </p>
-              {/* <p className="hidden md:block text-xl">, </p>
-              <p className="text-xl">+36308998460</p> */}
             </div>
           </div>
-          <div className="flex items-center md:justify-center lg:justify-normal gap-5">
+          <div className="flex flex-col md:flex-row items-center md:justify-center lg:justify-normal gap-2 md:gap-5">
             {locationSVG}
             <div className="md:flex">
-              <p className="text-xl font-semibold">
-                {" "}
+              <p className="text-lg md:text-xl font-semibold">
                 1077 Budapest, Wesselényi utca 54
               </p>
-              {/* <p className="text-xl flex-grow"></p> */}
             </div>
           </div>
-          <div className="flex items-center md:justify-center lg:justify-normal gap-5">
+          <div className="flex flex-col md:flex-row items-center md:justify-center lg:justify-normal gap-2 md:gap-5">
             {woltIcon}
             <Link
               className="text-xl hover:text-primary-color font-semibold"
@@ -106,7 +102,7 @@ export default function Contactus() {
                 "https://wolt.com/en/hun/budapest/restaurant/dehraduna-dumplings"
               }
             >
-              Order Now
+              <p className="text-lg md:text-xl font-semibold">Order Now</p>
             </Link>
           </div>
         </section>

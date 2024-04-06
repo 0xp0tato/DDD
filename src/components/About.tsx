@@ -5,7 +5,7 @@ const videoUrl =
 
 const About = () => {
   return (
-    <main className="bg-primary-color py-20 px-20">
+    <main id="about" className="bg-primary-color py-20 px-20">
       <div className="flex flex-col-reverse gap-10 text-white h-full lg:grid lg:grid-cols-2 lg:max-w-[1140px] mx-auto">
         <section>
           <h1 className="text-5xl font-bold font-forte">About Us</h1>
