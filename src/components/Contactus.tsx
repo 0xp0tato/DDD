@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -12,13 +13,7 @@ export default function Contactus() {
   );
 
   const phoneSVG = (
-    <svg
-      width="64px"
-      height="64px"
-      viewBox="0 0 24 24"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
+    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
       <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
       <g
         id="SVGRepo_tracerCarrier"
@@ -41,8 +36,6 @@ export default function Contactus() {
       id="Layer_1"
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
-      width="64px"
-      height="64px"
       viewBox="0 0 64 64"
       enable-background="new 0 0 64 64"
       xmlSpace="preserve"
@@ -64,48 +57,55 @@ export default function Contactus() {
     </svg>
   );
 
-  const woltIcon = (
-    <img
-      src="https://asset.brandfetch.io/idrMInkLiX/idfvhQBfVU.svg"
-      width="70"
-      height="70"
-    />
-  );
+  const woltIcon = <img src={"/woltLogo.png"} alt="wolt logo" />;
+
+  const foodoraIcon = <img src={"/foodoraLogo.png"} alt="foodora logo" />;
 
   return (
     <main id="contact" className="lg:max-w-[1140px] m-auto py-8 px-8">
       <h1 className="text-center text-4xl mb-8 font-semibold">Order Now</h1>
       <div className="grid grid-cols-1 gap-10 lg:grid-cols-2">
-        {mapLocation}
         <section className="flex flex-col gap-8 lg:order-first justify-center">
-          <div className="flex flex-col md:flex-row items-center md:justify-center lg:justify-normal gap-2 md:gap-5">
-            {phoneSVG}
+          <div className="flex md:flex-row items-center md:justify-center lg:justify-normal gap-2 md:gap-5">
+            <div className="h-10 w-10">{phoneSVG}</div>
             <div className="md:flex">
               <p className="text-lg md:text-xl flex-grow font-semibold">
                 +36206626976, +36308998460
               </p>
             </div>
           </div>
-          <div className="flex flex-col md:flex-row items-center md:justify-center lg:justify-normal gap-2 md:gap-5">
-            {locationSVG}
+          <div className="flex md:flex-row items-center md:justify-center lg:justify-normal gap-5 md:gap-5">
+            <div className="flex items-center gap-3">
+              <div className="h-10 w-10">{woltIcon}</div>
+              <Link
+                className="text-xl hover:text-primary-color font-semibold"
+                href={
+                  "https://wolt.com/en/hun/budapest/restaurant/dehraduna-dumplings"
+                }
+              >
+                <p className="text-lg md:text-xl font-semibold">Order Now</p>
+              </Link>
+            </div>
+            <div className="flex items-center gap-3">
+              <div className="h-10 w-10">{foodoraIcon}</div>
+              <Link
+                className="text-xl hover:text-primary-color font-semibold"
+                href="https://www.foodora.hu/en/restaurant/fybs/dehraduna-dumplings"
+              >
+                <p className="text-lg md:text-xl font-semibold">Order Now</p>
+              </Link>
+            </div>
+          </div>
+          <div className="flex md:flex-row items-center md:justify-center lg:justify-normal gap-2 md:gap-5">
+            <div className="h-10 w-10">{locationSVG}</div>
             <div className="md:flex">
               <p className="text-lg md:text-xl font-semibold">
                 1077 Budapest, Wesselényi utca 54
               </p>
             </div>
           </div>
-          <div className="flex flex-col md:flex-row items-center md:justify-center lg:justify-normal gap-2 md:gap-5">
-            {woltIcon}
-            <Link
-              className="text-xl hover:text-primary-color font-semibold"
-              href={
-                "https://wolt.com/en/hun/budapest/restaurant/dehraduna-dumplings"
-              }
-            >
-              <p className="text-lg md:text-xl font-semibold">Order Now</p>
-            </Link>
-          </div>
         </section>
+        {mapLocation}
       </div>
     </main>
   );

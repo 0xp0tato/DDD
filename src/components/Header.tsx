@@ -17,7 +17,7 @@ const Header = () => {
         <Link href={"/"}>
           <img src={logo} className="w-14" />
         </Link>
-        <h1 className="text-lg md:text-2xl absolute left-1/2 transform -translate-x-1/2 font-forte">
+        <h1 className="text-lg md:text-2xl absolute left-1/2 transform -translate-x-1/2 font-forte text-primary-color">
           Dehraduna Dumplings
         </h1>
         <nav className="hidden lg:block">

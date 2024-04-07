@@ -5,8 +5,8 @@ import React from "react";
 
 const heroImages = [
   "https://res.cloudinary.com/dqjxjr41e/image/upload/v1705331355/Dehraduna%20Dumplings/fadouuo7aw6rrly9f2kj.jpg",
-  "https://res.cloudinary.com/dqjxjr41e/image/upload/v1705331355/Dehraduna%20Dumplings/sh5jx72kejtesmevy7rq.jpg",
   "https://res.cloudinary.com/dqjxjr41e/image/upload/v1705331351/Dehraduna%20Dumplings/xqgr2wucpnfbv0rwhwmh.jpg",
+  "https://res.cloudinary.com/dqjxjr41e/image/upload/v1705331348/Dehraduna%20Dumplings/peygfh2tyiij8qltpnb7.jpg",
 ];
 
 const Hero = () => {
