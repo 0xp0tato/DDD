@@ -13,7 +13,7 @@ export default function page() {
       title: "Steamed Momos",
       content: <SteamedMomos />,
       description:
-        "Your Prefered Dumplings Are Severed Steaming Hot With 8 Pcs",
+        "Your Preferred Dumplings Are Served Steaming Hot With 8 Pcs",
       image:
         "https://res.cloudinary.com/dqjxjr41e/image/upload/v1722677785/Dehraduna%20Dumplings/r6274ghfisurmjepntwp.jpg",
     },

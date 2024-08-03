@@ -39,13 +39,13 @@ const About = () => {
             life with a big spoon.`}
           </p>
         </section>
-        <section>
+        <section className="max-h-[1521px] lg:h-full">
           <video
             src={videoUrl}
             autoPlay
             muted
             loop
-            className="object-cover rounded-2xl h-full"
+            className="object-cover rounded-2xl w-full h-full"
           />
         </section>
       </div>

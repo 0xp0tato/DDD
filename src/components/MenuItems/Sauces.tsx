@@ -5,19 +5,19 @@ import ItemCard from "./ItemCard";
 export default function Sauces() {
   const items: IItems[] = [
     {
-      title: "Indian Fire Sauce",
+      title: "Indian Fire",
       description:
         "A spicy mix of red chillies, onions, ginger, garlic & tomatoes, balanced with coriander & herbs. Ideal for dipping.",
       amount: "220 Ft",
     },
     {
-      title: "Herbal Queen Sauce",
+      title: "Herbal Queen",
       description:
         "A zesty medley of cucumber, coriander, celery, paprika & carrots, harmoniously bathed in premium edible oil.",
       amount: "220 Ft",
     },
     {
-      title: "Dive into our Magic Mayo",
+      title: "Magic Mayo",
       description:
         "A fun fusion of traditional mayo, zesty lime, aromatic herbs & garlic. Ideal for dips & sauces!",
       amount: "220 Ft",
