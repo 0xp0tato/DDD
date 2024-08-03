@@ -42,9 +42,9 @@ const About = () => {
         <section className="max-h-[1521px] lg:h-full">
           <video
             src={videoUrl}
-            autoPlay
+            autoPlay={true}
+            loop={true}
             muted
-            loop
             className="object-cover rounded-2xl w-full h-full"
           />
         </section>
