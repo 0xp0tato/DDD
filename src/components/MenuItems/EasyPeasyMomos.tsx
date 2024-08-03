@@ -7,25 +7,25 @@ export default function EasyPeasyMomos() {
     {
       title: "Vegetable Easy Peasy Dumpling",
       description:
-        "A delightful combination of fresh vegetables enclosed in a tender steamed wrapper.",
+        "Savor our Veg Easy Peasy dumplings (4 pcs), a delightful mix of cabbage, onion, carrot, paprika, spring onion, ginger, and garlic. Perfect for starters!",
       amount: "1390 Ft",
     },
     {
       title: "Paneer Easy Peasy Dumpling",
       description:
-        "A delightful combination of fresh vegetables enclosed in a tender steamed wrapper.",
+        "Enjoy 4 pcs of our Paneer Dumplings, filled with cottage cheese, cabbage, paprika, carrot, onion, ginger & garlic. A savory delight!",
       amount: "1490 Ft",
     },
     {
       title: "Pork Easy Peasy Dumpling",
       description:
-        "A delightful combination of fresh vegetables enclosed in a tender steamed wrapper.",
+        "Indulge in Pork Easy Peasy Dumplings (4 pcs). Bursting with pork, onion, spring onion, ginger & garlic. The ideal dumpling delight!",
       amount: "1590 Ft",
     },
     {
       title: "Chicken Easy Peasy Dumpling",
       description:
-        "A delightful combination of fresh vegetables enclosed in a tender steamed wrapper.",
+        'Enjoy the flavorful "Chicken Easy Peasy" dumplings (4 pcs) packed with tender chicken, onion, spring onion, garlic, and a hint of ginger.',
       amount: "1590 Ft",
     },
   ];

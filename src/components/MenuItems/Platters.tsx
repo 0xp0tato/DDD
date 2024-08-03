@@ -7,38 +7,37 @@ export default function Platters() {
     {
       title: "Vegan Delight",
       description:
-        "4 steam ed,4 pan fried,4 deep fried vegetable dum plings (4 gőzölt, 4 serpenyőben sült, 4 olajban sült zöldséges gom bóc)",
-      amount: "1390 Ft",
+        " Assorted 12-piece veggie dumpling platter - 4 steamed, 4 pan-fried & 4 deep-fried. Ideal for vegan diets!",
+      amount: "3290 Ft",
     },
     {
       title: "Paneer Paradise",
       description:
-        "4 steam ed,4 pan fried,4 deep fried (4 gőzölt,4 serpenyőben sült, 4 olajban sült)",
-      amount: "1490 Ft",
+        " A 12-piece platter featuring a trio of dumplings – 4 steamed, 4 pan-fried, 4 deep-fried. A cheese lover's delight!",
+      amount: "3490 Ft",
     },
     {
       title: "Meat Lover Chicken",
-      description:
-        "4 steam ed,4 pan fried,4 deep fried (4 gőzölt,4 serpenyőben sült, 4 olajban sült)",
-      amount: "1590 Ft",
+      description: `Savor our Meat Lover Chicken dumpling platter: 4 steamed, 4 pan-fried, & 4 deep-fried pieces. A hearty treat for dumpling enthusiasts!`,
+      amount: "3790 Ft",
     },
     {
       title: "Meat Lover Pork",
       description:
-        "4 steam ed,4 pan fried,4 deep fried (4 gőzölt,4 serpenyőben sült, 4 olajban sült)",
-      amount: "1590 Ft",
+        "Feast on our Meat Lover's Dumpling Platter! 12 juicy pork dumplings, offered steamed, pan-fried & deep-fried. Perfect for sharing!",
+      amount: "3790 Ft",
     },
     {
       title: "Steamed Platter",
       description:
-        "3 pcs each ofveg,paneer,chicken & pork (3 darab zöldséges,paneer,csirkés és sertés -az elkészítésim ódotkedved szerintválaszthatod!)",
-      amount: "1590 Ft",
+        "An assortment of 12 steamed dumplings, with serving 3 of each: veg, paneer, chicken, and pork or of your choice ! A delightful mix for your taste buds!",
+      amount: "3590 Ft",
     },
     {
       title: "Fried Platter",
       description:
-        "3 pcs each ofveg,paneer,chicken & pork (3 darab zöldséges,paneer,csirkés és sertés -az elkészítésim ódotkedved szerintválaszthatod!)",
-      amount: "1590 Ft",
+        "Indulge in our Fried Platter of 12 assorted dumplings - veggie, paneer, chicken, & pork (3 each). Whether it be pan fried or deep fried, whatever you like!",
+      amount: "3890 Ft",
     },
   ];
   return (

@@ -4,8 +4,10 @@ import { Card, Divider } from "antd";
 import { useState } from "react";
 
 interface Tab {
+  image: string;
   title: string;
   content: React.ReactNode;
+  description: string;
 }
 
 interface TabComponentProps {
@@ -37,11 +39,19 @@ const TabComponent: React.FC<TabComponentProps> = ({ tabs }) => {
         ))}
       </div>
       <Card>
-        <span className="block text-center text-primary-color text-3xl font-semibold">
+        <span className="block text-center text-primary-color text-3xl font-semibold mb-2">
           {tabs[activeTab].title}
         </span>
+        <p className="text-xs text-center font-semibold">
+          {tabs[activeTab].description}
+        </p>
         <Divider className="bg-primary-color h-1" />
-        <div className="border border-black max-w-3xl h-40 m-auto mb-5"></div>
+        <div className="max-w-2xl h-90 m-auto mb-5">
+          <img
+            className="w-full h-full object-cover"
+            src={tabs[activeTab].image}
+          />
+        </div>
         {tabs[activeTab].content}
       </Card>
     </div>

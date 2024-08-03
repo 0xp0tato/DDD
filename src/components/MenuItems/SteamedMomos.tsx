@@ -7,25 +7,25 @@ export default function SteamedMomos() {
     {
       title: "Vegetable Steamed Dumpling",
       description:
-        "A delightful combination of fresh vegetables enclosed in a tender steamed wrapper.",
+        "Relish 8pcs of Veg Steamed Momos, packed with a vibrant mix of cabbage, carrot, onion, paprika, ginger, garlic & spring onion.",
       amount: "1990 Ft",
     },
     {
       title: "Paneer Steamed Dumpling",
       description:
-        "A delightful combination of fresh vegetables enclosed in a tender steamed wrapper.",
+        "Savor 8 pcs of Steamed Paneer Momos, packed with cottage cheese, cabbage, paprika, carrot, onion, ginger, and garlic. A delightful bite!",
       amount: "2190 Ft",
     },
     {
       title: "Pork Steamed Dumpling",
       description:
-        "A delightful combination of fresh vegetables enclosed in a tender steamed wrapper.",
+        "Relish 8 delectable Pork Momos, steamed to perfection with a hearty filling of pork, onion, ginger, and garlic.",
       amount: "2390 Ft",
     },
     {
       title: "Chicken Steamed Dumpling",
       description:
-        "A delightful combination of fresh vegetables enclosed in a tender steamed wrapper.",
+        "Juicy chicken, onion, spring onions, ginger & garlic, wrapped in a soft dumpling shell.",
       amount: "2390 Ft",
     },
   ];
