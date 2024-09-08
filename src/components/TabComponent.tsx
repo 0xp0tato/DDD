@@ -42,7 +42,7 @@ const TabComponent: React.FC<TabComponentProps> = ({ tabs }) => {
         <span className="block text-center text-primary-color text-3xl font-semibold mb-2">
           {tabs[activeTab].title}
         </span>
-        <p className="text-md text-center font-semibold">
+        <p className="text-xl text-center font-semibold">
           {tabs[activeTab].description}
         </p>
         <Divider className="bg-primary-color h-1" />
