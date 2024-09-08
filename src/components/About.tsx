@@ -45,6 +45,7 @@ const About = () => {
             autoPlay={true}
             loop={true}
             playsInline={true}
+            muted
             className="object-cover rounded-2xl w-full h-full"
           />
         </section>
