@@ -11,8 +11,8 @@ import { MENU_CATEGORY } from "@/utils/constants";
 import { Button, Form, Input, Modal, Select, Switch } from "antd";
 import React, { useEffect, useState } from "react";
 
-export default function page() {
-  const [menuItems, setMenuItems] = useState([]);
+export default function Page() {
+  const [menuItems, setMenuItems] = useState<Array<IItems>>([]);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [flags, setFlags] = useState({
     addItemFlag: false,
@@ -72,6 +72,7 @@ export default function page() {
         {menuItems ? (
           menuItems.map((item) => (
             <ItemCard
+              key={item._id}
               item={item}
               editable={true}
               setInitialValues={setInitialValues}

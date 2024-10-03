@@ -12,7 +12,7 @@ import { getAllMenuItems } from "@/lib/getAllMenuItems";
 import { CATEGORIES } from "@/utils/constants";
 import React, { useEffect, useState } from "react";
 
-export default function page() {
+export default function Page() {
   const [items, setItems] = useState<Array<IItems>>([]);
 
   useEffect(() => {
