@@ -8,19 +8,19 @@ export default function Sauces() {
       title: "Indian Fire",
       description:
         "A spicy mix of red chillies, onions, ginger, garlic & tomatoes, balanced with coriander & herbs. Ideal for dipping.",
-      amount: "220 Ft",
+      amount: "250 Ft",
     },
     {
       title: "Herbal Queen",
       description:
         "A zesty medley of cucumber, coriander, celery, paprika & carrots, harmoniously bathed in premium edible oil.",
-      amount: "220 Ft",
+      amount: "250 Ft",
     },
     {
       title: "Magic Mayo",
       description:
         "A fun fusion of traditional mayo, zesty lime, aromatic herbs & garlic. Ideal for dips & sauces!",
-      amount: "220 Ft",
+      amount: "250 Ft",
     },
   ];
   return (

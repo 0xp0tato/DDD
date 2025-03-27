@@ -8,25 +8,25 @@ export default function FriedMomos() {
       title: "Vegetable Fried Dumpling",
       description:
         "Relish 8 fried veg momos filled with a rich blend of cabbage, onion, carrot, paprika, spring onions, ginger, and garlic.",
-      amount: "2290 Ft",
+      amount: "2490 Ft",
     },
     {
       title: "Paneer Fried Dumpling",
       description:
         "Crispy paneer momos (8pcs), filled with cottage cheese, cabbage, carrot, paprika, onion, ginger & garlic. A savory dumpling delight!",
-      amount: "2490 Ft",
+      amount: "2690 Ft",
     },
     {
       title: "Pork Fried Dumpling",
       description:
         "Indulge in 8 pcs of our Pork fried momos, a dumpling dream filled with succulent pork, onion, spring onion, ginger, and garlic.",
-      amount: "2690 Ft",
+      amount: "2890 Ft",
     },
     {
       title: "Chicken Fried Dumpling",
       description:
         "Indulge in our 8pc Chicken fried momos, a dumpling entrée packed with onion, spring onion, ginger, and garlic. A true delight!",
-      amount: "2690 Ft",
+      amount: "2890 Ft",
     },
   ];
   return (

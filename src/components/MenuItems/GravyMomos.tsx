@@ -8,25 +8,25 @@ export default function GravyMomos() {
       title: "Vegetable Gravy Dumpling",
       description:
         "Savor 6 pcs of Vegetable Momos in the gravy of your choice, a veg entrée with a mix of cabbage, onion, carrot, paprika, spring onion, ginger & garlic. Perfect for dumpling lovers.",
-      amount: "2590 Ft",
+      amount: "2890 Ft",
     },
     {
       title: "Paneer Gravy Dumpling",
       description:
         "Savor our Paneer Momos (6pcs) in gravy of your choice - a tantalizing mix of cottage cheese, cabbage, paprika, carrot, onion, ginger & garlic. A delightful dumpling treat!",
-      amount: "2790 Ft",
+      amount: "3090 Ft",
     },
     {
       title: "Pork Gravy Dumpling",
       description:
         " Experience a burst of flavor with our Pork Gravy Momos (6 pcs), packed with pork, onion, ginger & garlic. Perfect entree delight!",
-      amount: "2990 Ft",
+      amount: "3290 Ft",
     },
     {
       title: "Chicken Gravy Dumpling",
       description:
         "Indulge in our Chicken Gravy Momos (6 pcs) - luscious dumplings stuffed with succulent chicken, onion, spring onion, ginger & garlic.",
-      amount: "2990 Ft",
+      amount: "3290 Ft",
     },
   ];
   return (
