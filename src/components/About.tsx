@@ -1,4 +1,5 @@
 import React from "react";
+import Recognition from "./Recognition";
 
 const videoUrl =
   "https://res.cloudinary.com/dqjxjr41e/video/upload/v1705331373/Dehraduna%20Dumplings/homepage-video.mp4";
@@ -38,6 +39,21 @@ const About = () => {
             offer a unique blend of flavors in our gravy momos for those who eat
             life with a big spoon.`}
           </p>
+          <h2 className="text-4xl mt-8">AWARD AND RECOGNITION</h2>
+          <p className="lg:text-xl mt-5 tracking-wider md:leading-7">
+            We’re Honored! 🏆
+          </p>
+          <p className="lg:text-xl mt-5 tracking-wider md:leading-7">
+            DD Dumpling is proud to receive a Restaurant Guru Award, and we
+            couldn’t have done it without you—our amazing customers! Your
+            support, reviews, and love for our dumplings inspire us every day.
+            Thank you for making us a part of your dining experience. We look
+            forward to serving you for years to come!{" "}
+          </p>
+          <p className="lg:text-xl mt-5 tracking-wider md:leading-7">
+            Come taste the award-winning flavors for yourself!
+          </p>
+          <Recognition />
         </section>
         <section className="max-h-[1521px] lg:h-full">
           <video
